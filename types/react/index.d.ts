@@ -3554,6 +3554,7 @@ declare namespace React {
 
         // Attributes which also defined in HTMLAttributes
         // See comment in SVGDOMPropertyConfig.js
+        autoFocus?: boolean | undefined;
         className?: string | undefined;
         color?: string | undefined;
         height?: number | string | undefined;
@@ -3564,6 +3565,9 @@ declare namespace React {
         method?: string | undefined;
         min?: number | string | undefined;
         name?: string | undefined;
+        nonce?: string | undefined;
+        part?: string | undefined;
+        slot?: string | undefined;
         style?: CSSProperties | undefined;
         target?: string | undefined;
         type?: string | undefined;
